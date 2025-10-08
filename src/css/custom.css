@@ -54,3 +54,25 @@ h4 > small {
     display: inline;
     font-weight: bold;
 }
+
+footer {
+    text-align: center;
+}
+
+footer > hr {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+footer > p {
+    font-size: .7em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer > img {
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
