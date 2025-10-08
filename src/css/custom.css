@@ -1,0 +1,56 @@
+.underlined {
+    text-decoration: underline;
+}
+
+.hero {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.hero img {
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    text-align: center;
+}
+
+.hero p {
+    text-align: justify;
+}
+
+.ctas {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.ctas > a {
+    width:auto;
+    margin-left:calc(var(--pico-spacing) * .25)
+}
+
+h4 > small {
+    float: right;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.hero .grid article:has(a[role=button]) {
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.hero .grid article > a[role=button] {
+    position: absolute;
+    bottom: 20px;
+    display: block;
+    float: left;
+}
+
+.mail-u + mail-at + mail-d {
+    display: inline;
+    font-weight: bold;
+}
